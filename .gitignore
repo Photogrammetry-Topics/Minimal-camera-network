@@ -1,0 +1,83 @@
+# ------------------------------
+# MATLAB / Octave Temporary Files
+# ------------------------------
+
+# Autosave files
+*.asv
+*.autosave
+
+# Backup files
+*.bak
+*.orig
+*.tmp
+*.temp
+
+# MATLAB cache and preference directories
+MATLAB*/**/*
+*matlabprefs.mat
+*pathdef.m
+
+# Simulink cache
+slprj/
+sccprj/
+_autosave/
+
+# Figures, generated plots, temp images
+*.fig
+*.jpg
+*.png
+*.tif
+*.bmp
+
+# Compiled MEX binaries
+*.mex*
+*.dll
+*.so
+*.dylib
+
+# Checkpoint or metadata files
+.DS_Store
+Thumbs.db
+
+# ------------------------------
+# System / OS Specific Files
+# ------------------------------
+
+# macOS
+Icon?
+.Spotlight-V100
+.Trashes
+
+# Windows
+desktop.ini
+
+# ------------------------------
+# IDE / Editor directories
+# ------------------------------
+
+# VS Code
+.vscode/
+
+# JetBrains / MATLAB IDE caches
+.idea/
+
+# ------------------------------
+# Project-specific exclusions
+# ------------------------------
+
+# Ignore outputs
+output/
+results/
+logs/
+
+# Ignore large datasets (optional — keep only examples)
+datasets/
+data/
+*.ply
+*.pcd
+*.stl
+*.fbx
+*.mat
+
+# Keep example datasets
+!examples/*.mat
