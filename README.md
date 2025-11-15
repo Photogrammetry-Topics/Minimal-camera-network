@@ -51,6 +51,9 @@ Computer Vision Toolbox (optional, for IFC operations)
 
 If you use this code, please cite:
 
-Authors (2025). Autonomous BIM-Aware UAV Path Planning for Construction 2 Inspection. Geomatics Journal, Volume, Pages.
+Abdulateef, N. A.; Jasim, Z. N.; Hasan, H. A.; Alsadik, B.; Khalaf, Y. H. Autonomous BIM-Aware UAV Path Planning for Construction Inspection. Preprints 2025, 2025102437. https://doi.org/10.20944/preprints202510.2437.v1
+
+
+.
 
 BibTeX will be added once the paper is published.
