@@ -12,9 +12,13 @@ This repository provides a full implementation of the ILP-based camera network o
 📁 Repository Contents
 
 -ilp_camera_optimization_with_accuracy.m
+
 -run_minimal_ILP_demo.m
+
 -visibilitytesting_plotting.m
+
 -visibilitytesting.m
+
 -read_wpk.m
 
 
@@ -25,9 +29,13 @@ run('main_ILP_demo.m')
 This script:
 
 Loads a mesh / IFC model
+
 Generates candidate viewpoints
+
 Computes the visibility & penalty matrices
+
 Solves the ILP
+
 Outputs plots and statistics matching the paper
 
 🧩 Dependencies
