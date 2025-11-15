@@ -7,7 +7,20 @@ MATLAB implementation accompanying the paper:
 
 🔍 Overview
 
-This repository provides a full implementation of the ILP-based camera network optimization framework proposed in the paper. The method takes a dense set of candidate viewpoints, computes visibility and photogrammetric penalty matrices (GSD, B/H, accuracy), and solves for the minimal set of cameras that still satisfies quality and coverage constraints.
+This repository provides the full MATLAB implementation of the ILP-based minimal camera network optimization framework described in the paper.
+The method takes a dense set of candidate viewpoints around a structure, computes visibility and photogrammetric penalty matrices (GSD, B/H, triangulation accuracy), and solves an Integer Linear Program to select the smallest subset of cameras that still satisfies coverage and quality constraints.
+
+The framework is designed for UAV-based inspection and photogrammetry, enabling significant reductions in:
+
+number of images
+
+mission duration
+
+battery consumption
+
+redundancy in coverage
+
+…while preserving reconstruction accuracy.
 
 📁 Repository Contents
 
@@ -24,6 +37,23 @@ This repository provides a full implementation of the ILP-based camera network o
 
 🚀 Usage
 run('main_ILP_demo.m')
+
+Minimal-camera-network/
+│
+├─ src/
+│   ├─ ilp_camera_optimization_with_accuracy.m
+│   ├─ visibilitytesting.m
+│   ├─ visibilitytesting_plotting.m
+│   ├─ read_wpk.m
+│
+├─ examples/
+│   ├─ run_minimal_ILP_demo.m
+│   ├─ example_wpk.mat
+│   ├─ example_points.mat
+│
+├─ README.md
+├─ LICENSE
+└─ .gitignore
 
 
 This script:
