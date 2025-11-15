@@ -1,6 +1,7 @@
 # Minimal-camera-network
 MATLAB implementation of the ILP-based minimal camera network optimization framework  proposed in "Autonomous BIM-Aware UAV Path Planning for Construction Inspection". Includes visibility simulation, penalty matrices, ILP solver  (intlinprog), and example datasets for UAV inspection scenarios.
 Minimal Camera Network Optimization
+![Minimal Camera Network Example](example.png)
 
 MATLAB implementation accompanying the paper:
 “Autonomous BIM-Aware UAV Path Planning for Construction Inspection” (B. Alsadik, 2025)
